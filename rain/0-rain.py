@@ -14,8 +14,6 @@ def rain(walls):
     Returns:
     int: total trapped water.
     """
-
-
     if len(walls) == 0:
         return 0
     water = 0
