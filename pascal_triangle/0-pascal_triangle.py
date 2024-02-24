@@ -5,6 +5,9 @@ Pascal's triangle in Python
 
 
 def pascal_triangle(n):
+    """
+    returns a pascal's triangle with a height of n
+    """
     if n <= 0:
         return []
 
